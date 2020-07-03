@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Parallax Effect on Mouse Move </title>
+    <link rel="stylesheet" href="assets/css/CSS.CSS">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+</head>
+<body>
+<section id="intro">
+     <div class="overflow-h">
+      <div class="container-fluid">
+        <ul id="scene" class="scene border fill">
+          <li class="layer expand-width" data-depth="0.15"><img src="assets/img/intro-layer-1.png" alt="" class="img-responsive" /></li>
+          <li class="layer expand-width" data-depth="0.25"><img src="assets/img/intro-layer-2.png" alt="" class="img-responsive" /></li>
+          <li class="layer expand-width" data-depth="0.00"><div class="yellow-box"></div></li>
+          <li class="layer expand-width" data-depth="0.40"><img src="assets/img/intro-layer-3.png" alt="" class="img-responsive" /></li>
+          <li class="layer expand-width" data-depth="0.55"><img src="assets/img/intro-layer-4.png" alt="" class="img-responsive" /></li>
+          <li class="layer expand-width" data-depth="0.65">
+            <div class="my-info" data-parallax='{"y": 100}'>
+              <h3>I am a designer</h3>
+              <h1 class="name">John Doe</h1>
+            </div>
+          </li>
+          <li class="layer expand-width" data-depth="1.40"><img src="assets/img/intro-layer-5.png" alt="" class="img-responsive" /></li>
+        </ul>
+      </div>
+    </div>
+</section>
+    
+    
+
+
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/parallax.hover.js"></script>
+   
+
+<script>
+var scene = document.getElementById('scene');
+
+if (typeof Parallax == 'function')
+  var parallax = new Parallax(scene);
+
+if (typeof $.fn.parallax == 'function')
+  $('.parallax-window').parallax();
+
+</script>
+
+
+</body>
+</html>

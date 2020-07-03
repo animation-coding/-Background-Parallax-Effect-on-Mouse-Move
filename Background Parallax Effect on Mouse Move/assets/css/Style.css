@@ -1,0 +1,185 @@
+/***---font-family: "Ailerons"----***/
+@font-face 
+{
+  font-family: "Ailerons";
+  src: url('../fonts/Ailerons.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Aileronsd41d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Ailerons.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Ailerons.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Ailerons.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Ailerons.svg#Ailerons') format('svg'); /* Legacy iOS */
+}
+/***---font-family: "Ailerons"----***/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body
+{
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  font-family:"Ailerons";
+  font-size: 14px;
+  line-height: 26px;
+  color: #333;
+}
+section
+{
+  position: relative;
+}
+#intro
+{
+  background: #000;
+  text-align: center;
+  position: relative;
+}
+.overflow-h
+{
+  overflow: hidden;
+}
+.container
+{
+  max-width: 1030px;
+  position: relative;
+}
+ul#scene
+{
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+ul#scene li
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.yellow-box
+{
+  background: rgba(249, 237, 50, .3);
+  height: 100%;
+  width: 335px;
+  position: absolute;
+  left: 50%;
+}
+ul#scene li img
+{
+  margin: auto;
+}
+ul#scene li:nth-child(4) img
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -40px;
+}
+
+ul#scene li:nth-child(5) img
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 60px;
+}
+
+ul#scene li:nth-child(6) .my-info
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 145px;
+}
+ul#scene li:nth-child(7) img
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+ bottom: 120px;
+ z-index: 10;
+}
+.my-info h3
+{
+  color: #fff;
+  font-family: "Ailerons"
+}
+.name
+{
+  font-family: "Ailerons";
+  font-size: 210px;
+  color: rgba(255,255,255, .5);
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
